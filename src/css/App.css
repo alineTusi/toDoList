@@ -25,13 +25,13 @@
 
 
 .header {
- background: rgb(229, 173, 231);
- color: white;
+ background: linear-gradient(to right, red, blue);
+ background-clip: text;
+ color: transparent;
  font-family: "Roboto", sans-serif;
  display: flex;
  justify-content: center;
  padding: 10px;
- border: 2px solid rgba(239, 105, 185, 0.734);
  border-radius: 10px;
  position: static;
 }
